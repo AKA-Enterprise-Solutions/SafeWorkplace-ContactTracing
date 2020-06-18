@@ -207,23 +207,23 @@ As an option you can pin your mobile app to your home screen, to avoid the need 
 
 2. The Safe Workplace App should be listed, Click on the **"…"** Icon. The following options should be displayed at the bottom: Details, Open, Pin to Home, Favorite
 
-    ![IMG19](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2019.png)
+    ![IMG19](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2019.jpg)
 
 3. Click on the **Pin to Home Option**
 
-    ![IMG20](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2020.png)
+    ![IMG20](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2020.jpg)
 
 4. There, click on the Icon indicated here to add the app to the home screen
 
-    ![IMG21](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2021.png)
+    ![IMG21](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2021.jpg)
 
 5. Click on the **“add to home screen option”** as show on the image above
 
-    ![IMG22](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2022.png)
+    ![IMG22](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2022.jpg)
 
 6. Click on the **“add”** option. Once completed, the app is going to be shown as any other home screen of your mobile device
 
-    ![IMG23](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2023.png)
+    ![IMG23](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2023.jpg)
 
 ### Step 8: Share Model Driven App with Organization Admins
 
