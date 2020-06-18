@@ -269,7 +269,9 @@ Follow these steps:
 
 ## Demo Video
 
-[![Canvas Apps Demo](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2028.jpg)](https://vimeo.com/430412668)
+### Canvas App (Mobile) Demo
+
+[![Canvas Apps Demo](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/VideoImage.png)](https://vimeo.com/430412668)
 
 ### Issues and Feedback
 
