@@ -243,29 +243,33 @@ Follow these steps:
 
 2. In the left pane select **Solutions**. From the solution list, select **Safe Workplace Contact Tracing** to open solution.
 
-   ![IMG24](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2024.jpg)
+   ![IMG24](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2024.png)
 
 3. In the solution, filter on **Flow** to find all the flows.
 
-   ![IMG25](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2025.jpg)
+   ![IMG25](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2025.png)
 
 4. Select the flow name to open the flow definition. For example, CDS: Flow > **Automated Presence Checkout**
 
 5. Double click on the flow name to open it. It will take you to the details form.  It should look like this
 
-   ![IMG26](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2026.jpg)
+   ![IMG26](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2026.png)
 
 6. Click on the **Edit** button on the Menu.  A screen confriming the connections for the flow will be displayed. It will look like this:
 
-   ![IMG27](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2027.jpg)
+   ![IMG27](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2027.png)
 
 7. Click on **Continue** to update all your connections and then click on **Save** to save the changes to the flow.  Then click on the **Back** arrow to go back to the flow details page
 
-   ![IMG28](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2028.jpg)
+   ![IMG28](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2028.png)
 
 8. Select **Turn On** and then close the browser session for the flow being edited. Flow is now active.
 
 9. Perform steps 4-8 for each of the flows listed above
+
+## Demo Video
+
+[![Canvas Apps Demo](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2028.jpg)](https://vimeo.com/430412668)
 
 ### Issues and Feedback
 
