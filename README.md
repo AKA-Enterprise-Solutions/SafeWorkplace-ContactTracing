@@ -1,10 +1,12 @@
 # Safe Workplace Contact Tracing App – Power Platform Solution
 
-[![GitHub All Releases](https://img.shields.io/github/downloads/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/total?color=green&style=for-the-badge&label=Download%20Here)](https://github.com//AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases/latest/download/ContactTracing.zip)
 [![GitHub Release Date](https://img.shields.io/github/release-date/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing?label=Released&style=for-the-badge)](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases)
 [![GitHub labels](https://img.shields.io/github/labels/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/bug?label=Report%20Issues&style=for-the-badge)](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/issues/new?assignees=Adramca&labels=bug%2C+under+review&template=bug_report.md)
-
 [![Twitter Follow](https://img.shields.io/twitter/follow/akaesny?color=blue&label=Click%20Here%20Follow%20us&style=for-the-badge)](https://twitter.com/akaesny)
+===
+[![GitHub All Releases](https://img.shields.io/github/downloads/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/total?color=green&style=for-the-badge&label=💻1.Download%20Core%20Package)](https://github.com//AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases/latest/download/ContactTracing_Core_Managed.zip)
+
+[![GitHub All Releases](https://img.shields.io/github/downloads/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/total?color=green&style=for-the-badge&label=📲2.Download%20Mobile%20Package)](https://github.com//AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases/latest/download/SafeWorkplace_CanvasApp.zip)
 
 ## Overview
 
@@ -33,7 +35,9 @@ The Safe Workplace Contact Tracing App features include the following:
 
 This document provides step by step instructions to setup the Safe Workplace App.
 
-### Step 1. Download the Deployment Package
+### 1. Core Package (Model-Driven App)
+
+#### Step 1. Download the Deployment Package
 
 Download the latest deployment package (.zip)
 
@@ -45,7 +49,7 @@ Before extracting the .zip file, ensure that you unblock it.
 
 2. > In the properties dialog box, select Unblock, then select Apply followed by **OK**.
 
-### Step 2. Sign Up for Power Apps and Create an Environment
+#### Step 2. Sign Up for Power Apps and Create an Environment
 
 If you do not already have Power Apps, sign up for Power Apps and
 purchase an appropriate license.  Additional information regarding
@@ -68,7 +72,7 @@ Data Service database.
 
     ![IMG1](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2001.png)
 
-### Step 3. Install the App
+#### Step 3. Install the App
 
 Follow the steps before to install Safe Workplace Tracing App along with configuration
 
@@ -120,7 +124,7 @@ Select the Admin App to open the model driven app that lets you configure the re
 
 ![IMG10](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2010.png)
 
-### Step 4: Update the app branding and tracking level
+#### Step 4: Update the app branding and tracking level
 
 You can change the app icon or display name of the Admin and mobile apps
 to match the branding of your organization.  
@@ -156,11 +160,11 @@ To update the App Name and sharing settings for the mobile app, follow these ste
 
 5. Select **Save** in the lower-right corner to save changes
 
-### Step 5: Add Azure Application Insights key to mobile apps for telemetry (optional)
+#### Step 5: Add Azure Application Insights key to mobile apps for telemetry (optional)
 
 Optionally, you can use Azure Application Insights to collect detailed telemetry for your mobile apps (canvas apps) to get insights on the app usage. For additional information on this, see [Analyze app telemetry using Application Insights](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/application-insights).
 
-### Step 6: Share Canvas App with users in the organization
+#### Step 6: Share Canvas App with users in the organization
 
 For Employees to use the canvas app on their mobile devices, the app must be shared with them.  It is easier to use Azure AD groups to easily share apps with groups of users.
 
@@ -186,7 +190,7 @@ It is important to note that you must make sure the user and/or group already ha
 
     ![IMG18](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2018.png)
 
-### Step 7: Pin Mobile app to Home screen on your phone (optional)
+#### Step 7: Pin Mobile app to Home screen on your phone (optional)
 
 As an option you can pin your mobile app to your home screen, to avoid the need to open the Power Apps application to then access the Safe Workplace App. To do so, follow these steps
 
@@ -212,7 +216,7 @@ As an option you can pin your mobile app to your home screen, to avoid the need 
 
     ![IMG23](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2023.jpg)
 
-### Step 8: Share Model Driven App with Organization Admins
+#### Step 8: Share Model Driven App with Organization Admins
 
 Model Driven App must be shared with Organization Admins for use. To do so, be sure the user and/or group to which the app is being shared with already has access to the environment.
 
@@ -224,7 +228,7 @@ Model Driven App must be shared with Organization Admins for use. To do so, be 
 
 4. Specify the Azure AD group or admin users that the app will be shared with.  Assign Safe Workplace Super User (Admin) security role and share
 
-### Step 9: Set Flows Connections and Enable them for Execution
+#### Step 9: Set Flows Connections and Enable them for Execution
 
 You must set the connections and enable the following flows that help in various processess in the solution. The following flows will need to go through the steps indicated below:
   
@@ -267,11 +271,19 @@ Follow these steps:
 
 9. Perform steps 4-8 for each of the flows listed above
 
+### 2. Mobile Package (Canvas App)
+
+> Steps coming soon
+
 ## Demo Video
 
 ### Canvas App (Mobile) Demo
 
 [![Canvas Apps Demo](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/VideoImage.png)](https://vimeo.com/430412668)
+
+### Model-driven App (Core) Demo
+
+> Coming soon!!
 
 ### Issues and Feedback
 
