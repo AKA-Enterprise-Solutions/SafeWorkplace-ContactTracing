@@ -1,7 +1,7 @@
 # Safe Workplace Contact Tracing App – Power Platform Solution
 
-![GitHub All Releases](https://img.shields.io/github/downloads/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/total?color=green&style=for-the-badge)
-![GitHub Release Date](https://img.shields.io/github/release-date/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing?label=Released&style=for-the-badge)
+[![GitHub All Releases](https://img.shields.io/github/downloads/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/total?color=green&style=for-the-badge&label=Download%20Here)](https://github.com//AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases/latest/download/ContactTracing.zip)
+[![GitHub Release Date](https://img.shields.io/github/release-date/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing?label=Released&style=for-the-badge)](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases)
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/akaesny?color=blue&label=Click%20Here%20Follow%20us&style=for-the-badge)](https://twitter.com/akaesny)
 
