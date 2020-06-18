@@ -189,7 +189,7 @@ It is important to note that you must make sure the user and/or group already ha
 
 4. Specify the Azure AD group or users that the app will be shared with to add user
 
-    ![IMG15](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2015.png)
+    ![IMG15](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2015.JPG)
 
 5. Next, permission to the entities will need to be provided. To assign the respective user role necessary, the Common Data Service User role should be selected first. Once Common Data User role is selected, you can then assign the applicable role for the user, Safe Workplace Super User, Safe Workplace Coordinator, or Safe Workplace Employee)
 
