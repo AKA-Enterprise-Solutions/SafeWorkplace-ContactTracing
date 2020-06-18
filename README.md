@@ -85,9 +85,9 @@ You can install the app by downloading it here: [![Download Contact Tracing Solu
 
 3. Click on the settings Icon and then select then select **continue**  
 
-4. The Settings area for Dynamics 365 opens. Click on the settings option on the menu !
+4. The Settings area for Dynamics 365 opens. Click on the settings option on the menu!
 
-    [IMG3](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2003.png)
+    ![IMG3](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2003.png)
 
 5. Click on the Solutions option under the Customization menu. This will open the Solutions page.
 
