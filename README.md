@@ -30,7 +30,7 @@ This document provides step by step instructions to setup the Safe Workplace App
 
 Download the latest deployment package (.zip)
 
-[![Download Contact Tracing Solution](https://raw.githubusercontent.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/master/assets/icons/DownloadButton.svg)](https://github.com//AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases/latest/download/ContactTracing.zip)
+[![Download Contact Tracing Solution](https://raw.githubusercontent.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/master/assets/icons/DownloadButton.svg)](https://github.com//AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases/latest/download/ContactTracing.zip) Click here to download the **Contact Tracing** solution
 
 Before extracting the .zip file, ensure that you unblock it.
 
@@ -70,10 +70,9 @@ Data Service database.
 
 ### Step 3. Install the App
 
-Follow the steps before to install Safe Workplace Tracing App along with
-configuration
+Follow the steps before to install Safe Workplace Tracing App along with configuration
 
-You can install the app by downloading it here: [![Download Contact Tracing Solution](https://raw.githubusercontent.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/master/assets/icons/DownloadButton.svg)](https://github.com//AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases/latest/download/ContactTracing.zip)
+You can install the app by clicking here 👉 [![Download Contact Tracing Solution](https://raw.githubusercontent.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/master/assets/icons/DownloadButton.svg)](https://github.com//AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases/latest/download/ContactTracing.zip)
 
 *Install the app from the deployment package*
 
