@@ -1,5 +1,10 @@
 # Safe Workplace Contact Tracing App – Power Platform Solution
 
+![GitHub All Releases](https://img.shields.io/github/downloads/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/total?color=green&style=for-the-badge)
+![GitHub Release Date](https://img.shields.io/github/release-date/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing?label=Released&style=for-the-badge)
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/akaesny?color=blue&label=Click%20Here%20Follow%20us&style=for-the-badge)](https://twitter.com/akaesny)
+
 ## Overview
 
 In response to COVID-19, the Safe Workplace Contact Tracing application is a solution set to provide SMB organizations the ability to track the location for both employees and visitors while they are physically on company premises. As this information is collected, when required Human Resource departments will be able to provide accurate tracing of all
@@ -29,6 +34,7 @@ This document provides step by step instructions to setup the Safe Workplace App
 ### Step 1. Download the Deployment Package
 
 Download the latest deployment package (.zip)
+
 👉 [![Download Contact Tracing Solution](https://raw.githubusercontent.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/master/assets/icons/DownloadButton.svg)](https://github.com//AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases/latest/download/ContactTracing.zip)
 
 Before extracting the .zip file, ensure that you unblock it.
