@@ -127,7 +127,7 @@ Installation will add the configuration for the Safe Workplace Contact Tracing a
 
 Select the Admin App to open the model driven app that lets you configure the rest of the deployment settings.  The admin app has several entities where you can add and manage data for your system.  You can use the area picker in the lower part of the left navigation pane to select a different area (Safe Place or Administration).
 
-![IMG10](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%20010.png)
+![IMG10](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2010.png)
 
 ### Step 4: Update the app branding and tracking level
 
@@ -136,13 +136,13 @@ to match the branding of your organization.  
 
 1. Select the Safe Workplace Admin App on the list of apps. Click on the Settings option on the main navigation menu on the top left navigation
 
-    ![IMG11](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%20011.png)
+    ![IMG11](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2011.png)
 
 2. The App settings form will open on the right side of the screen.
 
 3. Click on the **Edit App Name** link. This will open the app designer form
 
-    ![IMG12](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%20012.png)
+    ![IMG12](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2012.png)
 
 4. Click on the Properties Tab of the App details section. The following elements can be changed:
     1. To select a custom image for the app icon as per your organization branding, uncheck the use default image checkbox and then select the icon file of your choice
@@ -151,7 +151,7 @@ to match the branding of your organization.  
 
     3. Select **Save and Close and then Publish**
 
-    ![IMG13](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%20013.png)
+    ![IMG13](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2013.png)
 
 To update the App Name and sharing settings for the mobile app, follow these steps
 
@@ -181,19 +181,19 @@ It is important to note that you must make sure the user and/or group already ha
 
 3. Select the mobile app then select **Share**
 
-    ![IMG14](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%20014.png)
+    ![IMG14](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2014.png)
 
 4. Specify the Azure AD group or users that the app will be shared with to add user
 
-    ![IMG15](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%20015.png)
+    ![IMG15](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2015.png)
 
 5. Next, permission to the entities will need to be provided. To assign the respective user role necessary, the Common Data Service User role should be selected first. Once Common Data User role is selected, you can then assign the applicable role for the user, Safe Workplace Super User, Safe Workplace Coordinator, or Safe Workplace Employee)
 
-    ![IMG16](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%20016.png)
+    ![IMG16](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2016.png)
 
-    ![IMG17](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%20017.png)
+    ![IMG17](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2017.png)
 
-    ![IMG18](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%20018.png)
+    ![IMG18](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2018.png)
 
 ### Step 7: Pin Mobile app to Home screen on your phone (optional)
 
@@ -203,23 +203,23 @@ As an option you can pin your mobile app to your home screen, to avoid the need 
 
 2. The Safe Workplace App should be listed, Click on the **"…"** Icon. The following options should be displayed at the bottom: Details, Open, Pin to Home, Favorite
 
-    ![IMG19](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%20019.png)
+    ![IMG19](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2019.png)
 
 3. Click on the **Pin to Home Option**
 
-    ![IMG20](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%20020.png)
+    ![IMG20](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2020.png)
 
 4. There, click on the Icon indicated here to add the app to the home screen
 
-    ![IMG21](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%20021.png)
+    ![IMG21](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2021.png)
 
 5. Click on the **“add to home screen option”** as show on the image above
 
-    ![IMG22](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%20022.png)
+    ![IMG22](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2022.png)
 
 6. Click on the **“add”** option. Once completed, the app is going to be shown as any other home screen of your mobile device
 
-    ![IMG23](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%20023.png)
+    ![IMG23](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2023.png)
 
 ### Step 8: Share Model Driven App with Organization Admins
 
