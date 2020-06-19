@@ -31,6 +31,18 @@ The Safe Workplace Contact Tracing App features include the following:
 - Use the Model Driven App to report Employee and Visitor health status and presence (Human Resource Admin)
 - Use the Model Driven App to create visitor's contact information, health information, report health updates and presence (Human Resource desiginated Coordinators)
 
+## Demo Video
+
+### Canvas App (Mobile) Demo
+
+Click 👇 to see the demo video (ctrl + click to open in Vimeo)
+
+[![Canvas Apps Demo](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/VideoImage.png)](https://vimeo.com/430412668)
+
+#### Model-driven App Demo
+
+> Coming soon!!
+
 ## Deploying Safe Workplace Contact Tracing App
 
 This document provides step by step instructions to setup the Safe Workplace App.
@@ -297,18 +309,6 @@ Follow these steps:
 8. Select **Turn On** and then close the browser session for the flow being edited. Flow is now active.
 
 9. Perform steps 4-8 for each of the flows listed above
-
-## Demo Video
-
-### Canvas App (Mobile) Demo
-
-Click 👇 to see the demo video (ctrl + click to open in Vimeo)
-
-[![Canvas Apps Demo](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/VideoImage.png)](https://vimeo.com/430412668)
-
-#### Model-driven App Demo
-
-> Coming soon!!
 
 ### Issues and Feedback
 
