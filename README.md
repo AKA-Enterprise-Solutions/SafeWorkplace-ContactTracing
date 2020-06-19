@@ -35,21 +35,15 @@ The Safe Workplace Contact Tracing App features include the following:
 
 This document provides step by step instructions to setup the Safe Workplace App.
 
-### 1. Core Package (Model-Driven App)
+### Step 1. Download the Deployment Packages
 
-#### Step 1. Download the Deployment Package
+Download the latest deployment packages
 
-Download the latest deployment package (.zip)
+1. Core (Model-driven App) Package 👉 [![Download Contact Tracing Solution](https://raw.githubusercontent.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/master/assets/icons/DownloadButton.svg)](https://github.com//AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases/latest/download/ContactTracing.zip)
 
-👉 [![Download Contact Tracing Solution](https://raw.githubusercontent.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/master/assets/icons/DownloadButton.svg)](https://github.com//AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases/latest/download/ContactTracing.zip)
+2. Canvas App Package 👉 [![Download Contact Tracing Solution](https://raw.githubusercontent.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/master/assets/icons/DownloadButton.svg)](https://github.com//AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases/latest/download/ContactTracing.zip)
 
-Before extracting the .zip file, ensure that you unblock it.
-
-1. > Right click the .zip file, select **Properties**
-
-2. > In the properties dialog box, select Unblock, then select Apply followed by **OK**.
-
-#### Step 2. Sign Up for Power Apps and Create an Environment
+### Step 2. Sign Up for Power Apps and Create an Environment
 
 If you do not already have Power Apps, sign up for Power Apps and
 purchase an appropriate license.  Additional information regarding
@@ -72,41 +66,39 @@ Data Service database.
 
     ![IMG1](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2001.png)
 
-#### Step 3. Install the App
+### Step 3. Install the Apps
 
 Follow the steps before to install Safe Workplace Tracing App along with configuration
 
-You can install the app by clicking here [![Download Contact Tracing Solution](https://raw.githubusercontent.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/master/assets/icons/DownloadButton.svg)](https://github.com//AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases/latest/download/ContactTracing.zip)
+*Install the app using the deployment packages*
 
-*Install the app from the deployment package*
-
-1. Navigate to the location where you extracted the deployment package (.zip), you will find a Package folder.
+1. Navigate to the location where you downloaded the deployment packages.
 
 2. Go to <https://make.powerapps.com> and login, if needed, with your admin credentials to the environment
 
     ![IMG2](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2002.png)
 
-3. Click on Solutions from the left navigation
+3. Click on **Solutions** from the left navigation
 
     ![IMG3](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2003.png)
 
-4. Click on Import from top ribbon. This will open a pop-up window to select Solution Package
+4. Click on **Import** from top ribbon. This will open a pop-up window to select **Solution Package**
 
     ![IMG4](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2004.png)
 
-5. Select Choose file and navigate to the location of package named "ContactTracing.zip"
+5. Select *Choose file* and navigate to the location of package named "**ContactTracing_Core_Managed.zip**"
 
-6. Ensure the solution name is correct and select Next
+6. Ensure the solution name is correct and select **Next**
 
     ![IMG5](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2005.png)
 
-7. On the next window, select the "Enable any SDK message…" checkbox.  Once checkbox is checked, click on Import
+7. On the next window, select the "*Enable any SDK message…*" checkbox.  Once checkbox is checked, click on **Import**
 
     ![IMG6](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2006.png)
 
 8. The import process starts running
 
-9. *(optional)* After import is complete, select Download Log File and save it. This is just for future reference should any issues arise. Finally, select Close
+9. *(optional)* After import is complete, select *Download Log File* and save it. This is just for future reference should any issues arise. Finally, select **Close**
 
     ![IMG7](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2007.png)
 
@@ -114,7 +106,47 @@ You can install the app by clicking here [![Download Contact Tracing Solution](h
 
     ![IMG8](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2008.png)
 
-11. Click on the Apps Button. The Safe Workplace Apps should be now listed
+11. Click on **Apps** in the left navigation pane to access the apps installed. The Safe Workplace Admin app should be now listed
+
+12. Click on Import Canvas App on the Top menu
+
+    ![Step12](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Step12.png)
+
+13. Choose the package file to import form is now open. Make sure you select the "**SafeWorkplace_CanvasApp.zip**" file from the location where you downloaded the packages
+
+    ![Step13](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Step13.png)
+
+14. Once the upload is completed, the following validation page is displayed
+
+    ![Step14](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Step14.png)
+
+15. Click on the action icon next to the item marked with a *Red Exclamation Icon* to setup the common data service connection for the Canvas App. Once the icon is clicked, the *Import Setup* form is displayed
+
+    ![Step15](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Step15.png)
+
+16. Click on the "**Create New**" button. This will open a new browser window. Click on the "**Create a Connection button**" there. This will open the new connection form to choose a Connection for creation
+
+    ![Step16](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Step16.png)
+
+17. Select the Common Data Service option. Click on the "+" icon on the right. On the confirmation message to request creation, click on the "*CREATE*" button. The following message is displayed
+
+    ![Step17](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Step17.png)
+
+18. The application might ask you to login to your environment. Once the process is completed, the data connection is added
+
+    ![Step18](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Step18.png)
+
+19. Go back to the import setup. The newly created connection should be there. Select it and then click on **SAVE**
+
+    ![Step19](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Step19.png)
+
+20. The Related resource for data connection is now resolved, the import button should be enabled now. Click on **IMPORT**
+
+21. Once the import is completed, the following message should be displayed
+
+    ![Step21](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Step21.png)
+
+22. Click on the Apps button again. Now the Safe Workplace Canvas App should be displayed.
 
     ![IMG9](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2009.png)
 
@@ -124,7 +156,7 @@ Select the Admin App to open the model driven app that lets you configure the re
 
 ![IMG10](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2010.png)
 
-#### Step 4: Update the app branding and tracking level
+### Step 4: Update the app branding and tracking level
 
 You can change the app icon or display name of the Admin and mobile apps
 to match the branding of your organization.  
@@ -160,11 +192,11 @@ To update the App Name and sharing settings for the mobile app, follow these ste
 
 5. Select **Save** in the lower-right corner to save changes
 
-#### Step 5: Add Azure Application Insights key to mobile apps for telemetry (optional)
+### Step 5: Add Azure Application Insights key to mobile apps for telemetry (optional)
 
 Optionally, you can use Azure Application Insights to collect detailed telemetry for your mobile apps (canvas apps) to get insights on the app usage. For additional information on this, see [Analyze app telemetry using Application Insights](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/application-insights).
 
-#### Step 6: Share Canvas App with users in the organization
+### Step 6: Share Canvas App with users in the organization
 
 For Employees to use the canvas app on their mobile devices, the app must be shared with them.  It is easier to use Azure AD groups to easily share apps with groups of users.
 
@@ -190,7 +222,7 @@ It is important to note that you must make sure the user and/or group already ha
 
     ![IMG18](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2018.png)
 
-#### Step 7: Pin Mobile app to Home screen on your phone (optional)
+### Step 7: Pin Mobile app to Home screen on your phone (optional)
 
 As an option you can pin your mobile app to your home screen, to avoid the need to open the Power Apps application to then access the Safe Workplace App. To do so, follow these steps
 
@@ -216,7 +248,7 @@ As an option you can pin your mobile app to your home screen, to avoid the need 
 
     ![IMG23](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2023.jpg)
 
-#### Step 8: Share Model Driven App with Organization Admins
+### Step 8: Share Model Driven App with Organization Admins
 
 Model Driven App must be shared with Organization Admins for use. To do so, be sure the user and/or group to which the app is being shared with already has access to the environment.
 
@@ -228,18 +260,13 @@ Model Driven App must be shared with Organization Admins for use. To do so, be 
 
 4. Specify the Azure AD group or admin users that the app will be shared with.  Assign Safe Workplace Super User (Admin) security role and share
 
-#### Step 9: Set Flows Connections and Enable them for Execution
+### Step 9: Set Flows Connections and Enable them for Execution
 
 You must set the connections and enable the following flows that help in various processess in the solution. The following flows will need to go through the steps indicated below:
   
 - CDS: Flow > Automated Presence Checkout
 - CDS: Flow > Health Notification to HR
 - CDS: Flow > Set Preferred location in Contact
-- PowerApps: Create New Health Detail
-- PowerApps: Create New Health Questionnaire
-- PowerApps: Create Presence - CheckIn
-- PowerApps: CreateNewTracerContactOnLogin
-- PowerApps: Update Presence - Checkout
 
 Follow these steps:
 
@@ -253,7 +280,7 @@ Follow these steps:
 
    ![IMG25](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/Safe%20Workplace%20IMG%2025.png)
 
-4. Select the flow name to open the flow definition. For example, CDS: Flow > **Automated Presence Checkout**
+4. Select the flow name to open the flow definition. For example, **CDS: Flow > Automated Presence Checkout**
 
 5. Double click on the flow name to open it. It will take you to the details form.  It should look like this
 
@@ -271,17 +298,15 @@ Follow these steps:
 
 9. Perform steps 4-8 for each of the flows listed above
 
-### 2. Mobile Package (Canvas App)
-
-> Steps coming soon
-
 ## Demo Video
 
 ### Canvas App (Mobile) Demo
 
+Click 👇 to see the demo video (ctrl + click to open in Vimeo)
+
 [![Canvas Apps Demo](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/blob/master/assets/screenshots/VideoImage.png)](https://vimeo.com/430412668)
 
-### Model-driven App (Core) Demo
+#### Model-driven App Demo
 
 > Coming soon!!
 
