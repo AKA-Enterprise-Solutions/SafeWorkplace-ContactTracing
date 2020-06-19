@@ -51,9 +51,9 @@ This document provides step by step instructions to setup the Safe Workplace App
 
 Download the latest deployment packages
 
-1. Core (Model-driven App) Package 👉 [![Download Contact Tracing Solution](https://raw.githubusercontent.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/master/assets/icons/DownloadButton.svg)](https://github.com//AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases/latest/download/ContactTracing.zip)
+1. Core (Model-driven App) Package 👉 [![Download Contact Tracing Solution](https://raw.githubusercontent.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/master/assets/icons/DownloadButton.svg)](https://github.com//AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases/latest/download/ContactTracing_Core_Managed.zip)
 
-2. Canvas App Package 👉 [![Download Contact Tracing Solution](https://raw.githubusercontent.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/master/assets/icons/DownloadButton.svg)](https://github.com//AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases/latest/download/ContactTracing.zip)
+2. Canvas App Package 👉 [![Download Contact Tracing Solution](https://raw.githubusercontent.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/master/assets/icons/DownloadButton.svg)](https://github.com//AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing/releases/latest/download/SafeWorkplace_CanvasApp.zip)
 
 ### Step 2. Sign Up for Power Apps and Create an Environment
 
