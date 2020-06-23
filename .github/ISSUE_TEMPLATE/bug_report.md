@@ -2,8 +2,8 @@
 name: Bug report
 about: Create a report to help us improve
 title: ''
-labels: bug, under review
-assignees: Adramca
+labels: under review
+assignees: Danish-AKA, Adramca
 
 ---
 
