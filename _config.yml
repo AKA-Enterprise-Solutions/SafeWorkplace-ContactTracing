@@ -1,1 +1,5 @@
 theme: jekyll-theme-cayman
+title: Safe Workplace
+description: A contact tracing app that helps business and offices to maintain social distancing by using check-in and check-out functionality.
+show_downloads: true
+google_analytics:
