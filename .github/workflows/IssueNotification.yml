@@ -17,26 +17,16 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         
-      # this is the new step using the ms-teams-notification action
       #- name: Notify Contact Tracing Teams Channel
-      #  uses: jdcargile/ms-teams-notification@v1.2
+      #  uses: aliencube/microsoft-teams-actions@v0.8.0
       #  with:
-      #    github-token: ${{ github.token }} # this will use the runner's token.
-      #    ms-teams-webhook-uri: ${{ secrets.MS_TEAMS_CONTACTTRACING_WEBHOOK_URI }}
-      #    notification-summary: ${{ github.event.issue.title }}
-      #    notification-color: 17a2b8
-      #    timezone: America/Denver
-      
-      - name: Notify Contact Tracing Teams Channel
-        uses: aliencube/microsoft-teams-actions@v0.8.0
-        with:
-            webhook_uri: ${{ secrets.MS_TEAMS_CONTACTTRACING_WEBHOOK_URI }}
-            title: '${{ github.event.issue.title }}'
-            summary: 'Issue ${{ github.event.issue.number }}'
-            text: 'New issue #${{ github.event.issue.number }} was created by ${{ github.event.issue.user.login }}'
-            theme_color: dc3545
-            # sections: '[{ "activityTitle": "hello world" }, { ... }]'
-            actions: '[{ "@type": "OpenUri", "name": "View in GitHub", "targets": [{ "os": "default", "uri": "${{ github.event.issue.html_url }}" }] }]'
+      #      webhook_uri: ${{ secrets.MS_TEAMS_CONTACTTRACING_WEBHOOK_URI }}
+      #      title: '${{ github.event.issue.title }}'
+      #      summary: 'Issue ${{ github.event.issue.number }}'
+      #      text: 'New issue #${{ github.event.issue.number }} was created by ${{ github.event.issue.user.login }}'
+      #      theme_color: dc3545
+      #      # sections: '[{ "activityTitle": "hello world" }, { ... }]'
+      #      actions: '[{ "@type": "OpenUri", "name": "View in GitHub", "targets": [{ "os": "default", "uri": "${{ github.event.issue.html_url }}" }] }]'
 
       - name: Add to Azure Boards
         uses: danhellem/github-actions-issue-to-work-item@master
@@ -45,7 +35,6 @@ jobs:
           github_token: "${{ github.token }}"
           ado_organization: "AKAES"
           ado_project: "SMB Covid-19 Contact Tracing App"
-          ado_wit: "User Story"
+          ado_wit: "Bug"
           ado_new_state: "New"
-          ado_close_state: "Closed"
           ado_bypassrules: true
