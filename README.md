@@ -19,7 +19,7 @@ The Safe Workplace Contact Tracing App features include the following:
 - Provide functionality for HR resources to track visitors’ locations while on premises, and to capture basic information about them and their health for reporting purposes  
 - Ability for employees or HR users assisting visitors entering company premises, to complete required survey certifying overall health
 - Provide the HR department with the functionality needed to effectively inquire and report on an employee’s whereabouts,interactions and location/contact tracing data
-  
+
 ## Navigating the App
 
 - Download and deploy the Safe Workplace Model Driven App (Admin)
@@ -30,17 +30,13 @@ The Safe Workplace Contact Tracing App features include the following:
 - Use the Model Driven App to report employee and visitor health status and presence (Human Resource Admin)
 - Use the Model Driven App to create visitor contact & health information, and report health updates & presence (Human Resource designated Coordinators)
 
-## Demo Video
+## Demo Videos
 
-### Canvas App (Mobile) Demo
+> Click 👇 to see the demo videos (`ctrl + click` to open in Vimeo)
 
-Click 👇 to see the demo video (ctrl + click to open in Vimeo)
-
-[![Canvas Apps Demo](https://aka-enterprise-solutions.github.io/SafeWorkplace-ContactTracing/assets/screenshots/VideoImage.png)](https://vimeo.com/430412668)
-
-#### Model-driven App Demo
-
-> Coming soon!!
+Employee | Coordinator | HR / Admin
+------------ | ------------- | -------------
+[<img src="https://aka-enterprise-solutions.github.io/SafeWorkplace-ContactTracing/assets/screenshots/VideoImage_Employee.png" width="200">](https://vimeo.com/430412668) | [<img src="https://aka-enterprise-solutions.github.io/SafeWorkplace-ContactTracing/assets/screenshots/VideoImage_Coordinators.png" width="200">](https://vimeo.com/432872258) | [<img src="https://aka-enterprise-solutions.github.io/SafeWorkplace-ContactTracing/assets/screenshots/VideoImage_Admin.png" width="200">](https://vimeo.com/432867472)
 
 ## Deploying Safe Workplace Contact Tracing App
 
