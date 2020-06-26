@@ -17,25 +17,26 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         
-      #- name: Notify Contact Tracing Teams Channel
-      #  uses: aliencube/microsoft-teams-actions@v0.8.0
-      #  with:
-      #      webhook_uri: ${{ secrets.MS_TEAMS_CONTACTTRACING_WEBHOOK_URI }}
-      #      title: '${{ github.event.issue.title }}'
-      #      summary: 'Issue ${{ github.event.issue.number }}'
-      #      text: 'New issue #${{ github.event.issue.number }} was created by ${{ github.event.issue.user.login }}'
-      #      theme_color: dc3545
-      #      # sections: '[{ "activityTitle": "hello world" }, { ... }]'
-      #      actions: '[{ "@type": "OpenUri", "name": "View in GitHub", "targets": [{ "os": "default", "uri": "${{ github.event.issue.html_url }}" }] }]'
+      - name: Notify Contact Tracing Teams Channel
+        uses: aliencube/microsoft-teams-actions@v0.8.0
+        with:
+            webhook_uri: ${{ secrets.MS_TEAMS_CONTACTTRACING_WEBHOOK_URI }}
+            title: '${{ github.event.issue.title }}'
+            summary: 'Issue ${{ github.event.issue.number }}'
+            text: 'New issue #${{ github.event.issue.number }} was created by ${{ github.event.issue.user.login }}'
+            theme_color: dc3545
+            # sections: '[{ "activityTitle": "hello world" }, { ... }]'
+            actions: '[{ "@type": "OpenUri", "name": "View in GitHub", "targets": [{ "os": "default", "uri": "${{ github.event.issue.html_url }}" }] }, { "@type": "HttpPOST", "name": "Create in Azure DevOps", "url": "https://prod-80.westus.logic.azure.com:443/workflows/fefe3d1ddad745499334cf561bcfab42/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=2Sn4uXsLfi7TeGYltPVaeNG_d53aElppJWRcGLSBKHU", "body": "{"title":"${{ github.event.issue.title }}","description":"${{ github.event.issue.body }}","url": "${{ github.event.issue.html_url }}"}" }]'
+            
 
-      - name: Add to Azure Boards
-        uses: danhellem/github-actions-issue-to-work-item@master
-        env:
-          ado_token: "${{ secrets.AZUREDEVOPS_PERSONAL_ACCESS_TOKEN }}"
-          github_token: "${{ github.token }}"
-          ado_organization: "AKAES"
-          ado_project: "SMB Covid-19 Contact Tracing App"
-          ado_wit: "Bug"
-          ado_new_state: "New"
-          ado_close_state: "Closed"
-          ado_bypassrules: true
+      #- name: Add to Azure Boards
+      #  uses: danhellem/github-actions-issue-to-work-item@master
+      #  env:
+      #    ado_token: "${{ secrets.AZUREDEVOPS_PERSONAL_ACCESS_TOKEN }}"
+      #    github_token: "${{ github.token }}"
+      #    ado_organization: "AKAES"
+      #    ado_project: "SMB Covid-19 Contact Tracing App"
+      #    ado_wit: "Bug"
+      #    ado_new_state: "New"
+      #    ado_close_state: "Closed"
+      #    ado_bypassrules: true
