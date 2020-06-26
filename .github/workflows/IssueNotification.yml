@@ -36,5 +36,5 @@ jobs:
             text: 'New issue #${{ github.event.issue.number }} was created by ${{ github.event.issue.user.login }}'
             theme_color: dc3545
             # sections: '[{ "activityTitle": "hello world" }, { ... }]'
-            actions: '[{ "@type": "OpenUri", "name": "View in GitHub", "targets": [{ "os": "default", "uri": ${{ github.event.issue.html_url }} }] }]'
+            actions: '[{ "@type": "OpenUri", "name": "View in GitHub", "targets": [{ "os": "default", "uri": "${{ github.event.issue.html_url }}" }] }]'
 
