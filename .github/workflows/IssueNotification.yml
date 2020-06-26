@@ -37,4 +37,5 @@ jobs:
           ado_project: "SMB Covid-19 Contact Tracing App"
           ado_wit: "Bug"
           ado_new_state: "New"
+          ado_close_state: "Closed"
           ado_bypassrules: true
