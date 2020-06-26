@@ -18,16 +18,23 @@ jobs:
       - uses: actions/checkout@v2
         
       # this is the new step using the ms-teams-notification action
-      #- name: Notify Contact Tracing Teams Channel
-      #  uses: jdcargile/ms-teams-notification@v1.2
-      #  with:
-      #    github-token: ${{ github.token }} # this will use the runner's token.
-      #    ms-teams-webhook-uri: ${{ secrets.MS_TEAMS_CONTACTTRACING_WEBHOOK_URI }}
-      #    notification-summary: Your custom notification message 
-      #    notification-color: 17a2b8
-      #    timezone: America/Denver
+      - name: Notify Contact Tracing Teams Channel
+        uses: jdcargile/ms-teams-notification@v1.2
+        with:
+          github-token: ${{ github.token }} # this will use the runner's token.
+          ms-teams-webhook-uri: ${{ secrets.MS_TEAMS_CONTACTTRACING_WEBHOOK_URI }}
+          notification-summary: ${{ github.event.issue.title }}
+          notification-color: 17a2b8
+          timezone: America/Denver
+      
+      - name: Test
+        uses: aliencube/microsoft-teams-actions@v0.8.0
+        with:
+            webhook_uri: ${{ secrets.MS_TEAMS_CONTACTTRACING_WEBHOOK_URI }}
+            title: ${{ github.event.issue.title }}
+            summary: ${{ github.event.issue.body }}
+            text: 'New issue #${{ github.event.issue.number }} was created by ${{ github.event.issue.user.login }}'
+            theme_color: dc3545
+            # sections: '[{ "activityTitle": "hello world" }, { ... }]'
+            actions: '[{ "@type": "OpenUri", "name": "lorem ipsum", "targets": [{ "os": "default", "uri": github.event.issue.html_url }] }, { ... }]'
 
-      - name: Dump GitHub context
-        env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: echo "$GITHUB_CONTEXT"
