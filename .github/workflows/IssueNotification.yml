@@ -1,0 +1,33 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  issues:
+    types: [opened,reopened]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        
+      # this is the new step using the ms-teams-notification action
+      #- name: Notify Contact Tracing Teams Channel
+      #  uses: jdcargile/ms-teams-notification@v1.2
+      #  with:
+      #    github-token: ${{ github.token }} # this will use the runner's token.
+      #    ms-teams-webhook-uri: ${{ secrets.MS_TEAMS_CONTACTTRACING_WEBHOOK_URI }}
+      #    notification-summary: Your custom notification message 
+      #    notification-color: 17a2b8
+      #    timezone: America/Denver
+
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
