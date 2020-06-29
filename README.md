@@ -221,6 +221,8 @@ For employees to use the canvas app on their mobile devices, the app must be sha
 
     ![IMG15](https://aka-enterprise-solutions.github.io/SafeWorkplace-ContactTracing/assets/screenshots/Safe%20Workplace%20IMG%2015.JPG)
 
+    > NOTE: Read more about [Safe Workplace security roles](https://github.com/AKA-Enterprise-Solutions/SafeWorkplace-ContactTracing#security-role-definations)
+
 5. Next, permission to the entities will need to be provided. To assign the respective user role necessary, first select the Common Data Service User role. You can then assign the applicable role for the user, Safe Workplace Super User, Safe Workplace Coordinator, or Safe Workplace Employee)
 
     ![IMG16](https://aka-enterprise-solutions.github.io/SafeWorkplace-ContactTracing/assets/screenshots/Safe%20Workplace%20IMG%2016.png)
@@ -279,33 +281,83 @@ Follow these steps:
 
 1. Sign into [Power Automate](https://flow.microsoft.com/)
 
-2. In the left pane select **Solutions**. From the solution list, select **Safe Workplace Contact Tracing** to open solution.
+2. Go to the Environment drop down selection located on the top right corner of the form, and click it to select the proper environment where the application has been installed.
+
+3. In the left pane select **Solutions**. From the solution list, select **Safe Workplace - Core** to open solution.
 
    ![IMG24](https://aka-enterprise-solutions.github.io/SafeWorkplace-ContactTracing/assets/screenshots/Safe%20Workplace%20IMG%2024.png)
 
-3. In the solution, filter on **Flow** to find all the flows.
+4. In the solution, filter on **Flow** to find all the flows.
 
    ![IMG25](https://aka-enterprise-solutions.github.io/SafeWorkplace-ContactTracing/assets/screenshots/Safe%20Workplace%20IMG%2025.png)
 
-4. Select the flow name to open the flow definition. For example, **CDS: Flow > Automated Presence Checkout**
+5. Select the flow name to open the flow definition. For example, **CDS: Flow > Automated Presence Checkout**
 
-5. Double click on the flow name to open it. which will take you to the details form.  It should look like this
+6. Double click on the flow name to open it. which will take you to the details form.  It should look like this
 
    ![IMG26](https://aka-enterprise-solutions.github.io/SafeWorkplace-ContactTracing/assets/screenshots/Safe%20Workplace%20IMG%2026.png)
 
-6. Click the **Edit** button on the menu. A screen confriming the connections for the flow will be displayed. It will look like this:
+7. Click the **Edit** button on the menu. A screen confriming the connections for the flow will be displayed. It will look like this:
 
    ![IMG27](https://aka-enterprise-solutions.github.io/SafeWorkplace-ContactTracing/assets/screenshots/Safe%20Workplace%20IMG%2027.png)
 
-7. Click **Continue** to update all your connections, click **Save** to save the changes to the flow, then click the **Back** arrow to go back to the flow details page
+8. Click **Continue** to update all your connections, click **Save** to save the changes to the flow, then click the **Back** arrow to go back to the flow details page
 
    ![IMG28](https://aka-enterprise-solutions.github.io/SafeWorkplace-ContactTracing/assets/screenshots/Safe%20Workplace%20IMG%2028.png)
 
-8. Select **Turn On** and then close the browser session for the flow being edited. the flow is now active.
+9. Select **Turn On** and then close the browser session for the flow being edited. the flow is now active.
 
-9. Perform steps 4-8 for each of the flows listed above
+10. Perform steps 4-8 for each of the flows listed above
 
 > NOTE: An additional change that could be done by an administrator user is to update the “delay until 4.5 hours” step in the flow, which is now set to wait for that specific period of time before emails are triggered, reminding the users to checkout of zones they have not done so for a while. User can open the flow step and change the value to any other amount of time that makes sense according to their company policies. Save the changes made to the flow
+
+### Step 10: Prepare the apps for testing and use
+
+Once the installation is completed, there are a couple of setup steps you need to follow in order to allow the users to start using the app right away. For users to be able to report their presence, locations and zones need to be configured. To do so, follow these steps:
+
+- Create a New Location Record
+  
+On the administration section, users will find the location option under the master details section. To create a new location, follow these steps:
+
+1. Click on the Locations options
+2. The system will display the active locations view, with the list of all locations created
+3. To edit one of the existing locations, select the location record and click on the Edit button. This will open the Location information form. Make any changes and then Save the changes
+4. To create a new Location, click on the “+ New” button. This will open a brand-new location information form
+5. Provide a name. This is the only required field
+6. Enter the address details for the location (optional)
+7. Click on the save and close button
+
+- Create a New Zone Record
+
+On the administration section, users will find the zones option under the master details section. To create a new zone, follow these steps:
+
+1. Click on the Zones options
+2. The system will display the active zones view, with the list of all zones created
+3. To edit one of the existing zones, select the zone record and click on the Edit button. This will open the zone information form. Make any changes and then Save the changes
+4. To create a new zone, click on the “+ New” button. This will open a brand-new zone information form
+5. Provide a name.
+6. Select the location for the zone. Click on the lookup to see the list of active locations and select one
+7. Enter the capacity and exposure level values(optional)
+8. Click on the save and close button
+
+> NOTE: Please review the [HR Admin Video](https://vimeo.com/432867472) to get more details on how to setup these items.
+
+### Security Role Definations
+
+- Safe Workplace Super User
+  - Super user role provides access to all entities, health dashboards related to Safe Workplace App. User can run "*Contact Tracing*" and "*Employee Zone*" reports.
+  - With this role, users can create/update/deactivate following entites: Tracer Contacts, Presences, Locations, Zones, Health Questionnaries and Health Changes.
+  - Super user also receive email notifications when heath changes are reported.
+
+- Safe Workplace Coordinator
+  - This role has create/update permissions to following entities: Tracer Contacts (with type Guest), Presenses, Health Questionnaries and Health Changes
+  - Coordinator role can check-in Guests to company Locations and record a Guest’s presence within a location by identifying the Zone a Guest enter and exit on a given date and within a given time.
+  - Coordinator can create Health Questionnaires to track a Guest’s health and report any changes in their health via the Health Change entity
+  - Coordinator cannot modify employee – related records or run tracing reports
+
+- Safe Workplace Employee
+  - Employee users only have access to the mobile app to document their presence within the organization’s location and zone by checking in and checking out of a selected location.
+  - An Employee can record their health status via the Health Questionnaire and report an illness, using the canvas app as well.
 
 ### Bypassing Consent
 
